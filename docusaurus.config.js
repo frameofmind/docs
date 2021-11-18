@@ -8,14 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'frame OF mind',
   tagline: 'Employee Engagement Benchmark Platform',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://frameofmind.github.io',
+  baseUrl: '/welcome/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'frameofmind', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
-
+  projectName: 'welcome', // Usually your repo name.
+  trailingSlash: true,
   presets: [
     [
       '@docusaurus/preset-classic',
